@@ -1,0 +1,22 @@
+PVY Projekt zadání - 21.12. na U: hodit
+
+- patièky a hlavièky jsou povìtšinou stejné
+Slider-- budou tam puntíky ale nemusí se hejbat
+- u Formu øešit validaci
+- vyhledávací pole na mobilu pouze ikona lupy (ale mùe za bonus body)
+- u produktu volby vel/barvy pouze vytvoøit klasu oznaèené blbosti
+- hover efekty ( u detailu)
+Kurzor tam nedávat
+
+Celı návrh v PS - je to fajn na zjištování velikostí, fonty tloušky
+    mùeme tam zjištovat i rozmìry
+    
+je tam 12-sloupcovı grid s mezery
+
+exportujeme ikonku košíku z PS kdyby neco chybelo
+
+Vem se prizpusobuje do 360
+
+Tabletová velikost je mozna a responsivni
+
+Loga jsou klikaci, aj produkty

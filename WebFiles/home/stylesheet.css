@@ -1,0 +1,343 @@
+.infobar{
+    background-color: #314069;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.infobar p{
+    font-size: 16px;
+    margin: 8px;
+    align-self: center;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif
+}
+.infobar svg{
+    align-self: center;
+    margin: 8px;
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+}
+img{
+    vertical-align: initial;
+}
+.logo{
+    margin-top: 24px;
+}
+.content{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.menubar svg{
+    margin-left: 15px;
+}
+.menubar img{
+    margin-top: 24px;
+    margin-left: 15px;
+}
+.category-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cat-button{
+    height: 67px;
+    border-color: #b7bed1;
+    border-left-style: solid;
+    border-top-style: solid;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.down-extra-underline{
+    border-bottom-style: solid;
+}
+.right-extra-underline{
+    border-right-style: solid;
+}
+.category-bar div:hover{
+    color: #C7232E;
+    border-color: #C7232E;
+
+    border-left-style: solid;
+    border-top-style: solid;
+}
+.cat-button{
+    color: #b7bed1;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Libre Franklin";
+    margin:0;
+    align-self: center;
+
+}
+.contact-button{
+    display: none;
+}
+.presentation{
+ display: none;
+}
+.category-banners{
+    margin-top: 20px;
+}
+.box{
+    position: relative;
+    text-align: center;
+}
+.textinbanner{
+    font-family: "Libre Franklin";
+    position: absolute;
+    top: 40%;
+    text-align: left;
+    left: 5%;
+    font-size: 25px;
+}
+.box:hover{
+    text-decoration: underline;
+}
+.box:hover .textinbanner{
+    text-decoration: underline;
+}
+.boytextcolor{
+    color:#314069;
+}
+.girltextcolor{
+    color: #D24E57;
+}
+.universaltextcolor{
+    color: #404F71;
+}
+
+.category-banners img{
+    width: 100%;
+}
+.splitter{
+    display: flex;
+}
+.splitter svg{
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+.splitter hr{
+    flex: 1;
+    border-top: 3px solid #B7BED1;
+    border-width: 0.1em;
+    line-height: 10px;
+}
+.textadvert{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Libre Franklin";
+    color: #C7222E;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.textadverttwo{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Libre Franklin";
+    color: #314069;
+    margin-top: 7px;
+    margin-bottom: 35px;
+}
+.shoes{
+    justify-content: center;
+}
+.showcase{
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.listing{
+
+    outline-style: solid;
+    outline-color: #B4BED5;
+    outline-width: 0.1em;
+    width: 100%;
+    margin-bottom: 18px;
+
+}
+.listing:hover{
+    outline-color: #C7222E;
+    outline-width: 3px;
+    box-shadow: 0 0 0 3px #d0d0d0;
+    font-weight: bold;
+}
+.listing:hover .kosik{
+    visibility: initial;
+}
+.listingname{
+    font-size: 18px;
+    font-family: "Libre Franklin";
+    margin-left: 12px;
+    color: #304068;
+}
+
+.priceline{
+    display: flex;
+    width: 100%;
+}
+.originalprice{
+    text-decoration: line-through;
+    font-size: 20px;
+    font-family: "Libre Franklin";
+    font-weight: lighter;
+    margin-left: 12px;
+    color: #B4BED5;
+}
+
+.price{
+    font-size: 20px;
+    font-family: "Libre Franklin";
+    font-weight: bold;
+    margin-left: 12px;
+    color: #C7232E;
+}
+.listingimg{
+    width: 100%;
+    border-style: solid;
+    border-color: #B4BFD5;
+}
+.kosik{
+    justify-self: end;
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+.showbutton{
+    margin-top: 6px;
+    margin-bottom: 35px;
+    background-color: #C7232E;
+    color: white;
+    width: 225px;
+    align-self: center;
+    height: 49px;
+    font-size: 15px;
+    font-family: "Libre Franklin";
+    border: 0;
+}
+.information{
+}
+.info-item{
+    display: flex;
+    font-size: 20px;
+    font-family: "Libre Franklin";
+    color: #304068;
+    align-items: baseline;
+    margin-bottom: 12px;
+
+}
+.modry-kruh svg{
+    align-self: center;
+}
+.modry-kruh{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: #304068;
+    border-radius: 35px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.ad{
+    height: 302px;
+    background-image: url("../img/upoutavka.png");
+}
+.ad-header{
+    font-size: 32px;
+    font-family: "Libre Franklin";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 40px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 20px;
+    font-family: "Libre Franklin";
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Email-Form{
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+
+}
+.textbox-email{
+}
+.button-email{
+}
+.bottom{
+    color: white;
+}
+.red-bottom{
+    background-color: #C7232E;
+    padding-left: 10px;
+    padding-right: 70px;
+
+}
+.aboutus-header{
+    font-size: 16px;
+    font-family: "Libre Franklin";
+    font-weight: lighter;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+.ad-description{
+    font-family: "Libre Franklin";
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+.category-ad{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.category-ad-header{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Libre Franklin";
+}
+ul.koleckolist{
+    list-style-type: circle;
+    font-size: 16px;
+    font-family: "Libre Franklin";
+}
+ul.koleckolist li{
+    margin-bottom: 7px;
+}
+.blue-bottom{
+    background-color: #314069;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media (min-width:500px ){
+    .bottom{
+        display: flex;
+    }
+    .red-bottom{
+        flex: 2;
+    }
+    .blue-bottom{
+        flex: 1;
+    }
+}
