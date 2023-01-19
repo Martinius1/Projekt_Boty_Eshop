@@ -116,7 +116,9 @@ img{
 .universaltextcolor{
     color: #404F71;
 }
-
+.icon-div{
+    margin-left: 8px;
+}
 .category-banners img{
     width: 100%;
 }
@@ -329,7 +331,41 @@ ul.koleckolist li{
 
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 30px;
 }
+.bottom-part div{
+    margin-bottom: 14px;
+}
+.bottom-icon{
+    margin-right: 12px;
+}
+.phone-icon{
+    margin-left: 8px;
+    margin-right: 14px;
+}
+.bottom-address{
+    margin:0;
+    font-family: "Libre Franklin";
+    font-size: 16px;
+    padding-top: 15px;
+}
+.bottom-link{
+    font-size: 16px;
+    font-family: "Libre Franklin";
+    color: white;
+    text-decoration: none;
+}
+.bottom-link:hover{
+    text-decoration: none;
+    color: #C7232E;
+}
+.phone-div{
+
+}
+.icon-div svg{
+    margin-right: 12px;
+}
+
 @media (min-width:500px ){
     .bottom{
         display: flex;
