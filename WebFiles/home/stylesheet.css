@@ -46,6 +46,7 @@ img{
 .category-bar{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-collapse: collapse;
 }
 .cat-button{
     height: 67px;
@@ -243,6 +244,13 @@ img{
     margin-bottom: 12px;
 
 }
+.info-item:hover{
+    color: #C7232E;
+    text-decoration: underline;
+}
+.info-item:hover div{
+    background-color: #C7232E;
+}
 .modry-kruh svg{
     align-self: center;
 }
@@ -367,14 +375,54 @@ ul.koleckolist li{
     margin-right: 12px;
 }
 
-@media (min-width:500px ){
+@media (min-width:630px ){
     .bottom{
         display: flex;
     }
     .red-bottom{
-        flex: 2;
+        flex: 1;
     }
     .blue-bottom{
         flex: 1;
+    }
+    .listing-bar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .listing{
+        flex: 1 0 21%;
+        margin: 15px;
+        margin-bottom: 11px;
+    }
+    .category-bar{
+        display: flex;
+    }
+    .category-bar div{
+        flex:1;
+    }
+    .contact-button{
+        display: flex;
+        border-right-style: solid;
+    }
+    .cat-button{
+        border-left-style: solid;
+        border-top-style: solid;
+        border-bottom-style: solid;
+    }
+    .right-extra-underline{
+        border-right-style: none
+    }
+    .category-banners{
+        display: flex;
+    }
+    .box{
+        margin:15px;
+        flex: 1;
+    }
+    .information{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .info-item{
     }
 }
