@@ -1,7 +1,9 @@
-.infobar{
+.top-blueline{
+
     background-color: #314069;
+}
+.infobar{
     color: white;
-    width: 100%;
     height: 50px;
     display: flex;
     align-self: center;
@@ -376,6 +378,18 @@ ul.koleckolist li{
 }
 
 @media (min-width:630px ){
+    .content{
+        max-width:1200px;
+        margin: 0 auto;
+    }
+    .infobar{
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .splitter{
+        max-width:1200px;
+        margin: 0 auto;
+    }
     .bottom{
         display: flex;
     }
@@ -386,13 +400,15 @@ ul.koleckolist li{
         flex: 1;
     }
     .listing-bar{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 22px;
+        margin-bottom: 43px;
     }
     .listing{
-        flex: 1 0 21%;
-        margin: 15px;
-        margin-bottom: 11px;
+        margin: 0px;
     }
     .category-bar{
         display: flex;
@@ -416,13 +432,16 @@ ul.koleckolist li{
         display: flex;
     }
     .box{
-        margin:15px;
         flex: 1;
+    }
+    .girl-box{
+        margin: 0 30px;
     }
     .information{
         display: flex;
         justify-content: space-evenly;
     }
-    .info-item{
+    .showcase{
+        margin: 0;
     }
 }
