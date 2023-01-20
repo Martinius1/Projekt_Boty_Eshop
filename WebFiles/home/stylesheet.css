@@ -124,6 +124,7 @@ img{
 }
 .splitter{
     display: flex;
+    margin-top: 15px;
 }
 .splitter svg{
     margin-left: 12px;
