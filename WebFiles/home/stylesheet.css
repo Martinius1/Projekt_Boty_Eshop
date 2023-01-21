@@ -45,6 +45,8 @@ img{
     margin-top: 24px;
     margin-left: 15px;
 }
+.menubar:hover{
+}
 .category-bar{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -171,13 +173,15 @@ img{
     outline-width: 0.1em;
     width: 100%;
     margin-bottom: 18px;
-
 }
 .listing:hover{
     outline-color: #C7222E;
     outline-width: 3px;
     box-shadow: 0 0 0 3px #d0d0d0;
     font-weight: bold;
+}
+.listing:hover a{
+   text-decoration: none;
 }
 .listing:hover .kosik{
     visibility: initial;
@@ -200,6 +204,12 @@ img{
     font-weight: lighter;
     margin-left: 12px;
     color: #B4BED5;
+}
+.normalprice{
+    font-size: 20px;
+    font-family: "Libre Franklin";
+    margin-left: 12px;
+    color: #C7232E;
 }
 
 .price{
