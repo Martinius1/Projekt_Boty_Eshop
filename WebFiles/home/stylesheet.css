@@ -183,6 +183,7 @@ a:focus{
     text-decoration: none;
 }
 .listing{
+    text-decoration: none;
 
     outline-style: solid;
     outline-color: #B4BED5;
@@ -198,6 +199,9 @@ a:focus{
 }
 .listing:hover a{
    text-decoration: none;
+}
+.listing a {
+    text-decoration: none;
 }
 .listing:hover .kosik{
     visibility: initial;
